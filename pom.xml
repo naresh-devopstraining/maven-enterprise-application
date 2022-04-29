@@ -11,15 +11,7 @@
     <module>MavenEnterpriseApp-ear</module>
     <module>MavenEnterpriseApp-web</module>
   </modules>
-  
-  <properties>
-	<!-- versions -->
-	<sonar.host.url>http://172.31.36.49:9000</sonar.host.url>
-        <sonar.login>a25b3b07b723891af0c42861f6e1c8185f2b17fe</sonar.login>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-</properties>
-  <distributionManagement>
+   <distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
@@ -31,8 +23,14 @@
 	      <id>nexus</id>
 	      <name>Facebook Snapshot Nexus Repository </name>
 	      <url>http://3.110.124.246:8081/nareshtechnologies/repository/facebook-snapshot/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
+	    </snapshotRepository
+  <properties>
+	<!-- versions -->
+	<sonar.host.url>http://172.31.36.49:9000</sonar.host.url>
+        <sonar.login>a25b3b07b723891af0c42861f6e1c8185f2b17fe</sonar.login>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+</properties>
+
 	
 </project>
