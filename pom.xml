@@ -19,5 +19,20 @@
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
-  
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Facebook Releases Nexus Repository</name>
+	      <url>http://3.110.124.246:8081/nareshtechnologies/repository/facebook-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Facebook Snapshot Nexus Repository </name>
+	      <url>http://3.110.124.246:8081/nareshtechnologies/repository/facebook-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+	
 </project>
